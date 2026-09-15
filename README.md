@@ -27,7 +27,6 @@ style.css
 README.md
 assets/
   backdrop.png
-  reference.png
 ```
 
 All stylesheet and image links are relative, so the site works under a repository subdirectory and on a custom domain. No Sites credentials, hosting configuration, or local server are needed.
@@ -36,10 +35,10 @@ All stylesheet and image links are relative, so the site works under a repositor
 
 - Edit `index.html` for page text, navigation, and FAQ answers.
 - Edit `style.css` for colors, typography, spacing, and responsive styles.
-- Keep both images in `assets`. The card images use positioned portions of `reference.png`.
-- The membership button currently opens a preview notice. Connect a real enrollment destination before accepting memberships.
-- Journal and Shop currently link to sections of this single-page preview. Social symbols are decorative, not connected profile links.
-- FAQ answers are draft copy; review them before launch.
+- Keep `assets/backdrop.png`. The card images use positioned portions of this cleaned artwork.
+- All four Join buttons link to https://nightshade-community.mn.co/users/onboarding/plans.
+- The header contains the brand and Join the Garden button. The footer contains the brand and community name.
+- Pricing, enrollment timing, FAQ answers, and member feedback follow the supplied revision notes. Update seasonal details when the offer changes.
 
 ## Official GitHub instructions
 
